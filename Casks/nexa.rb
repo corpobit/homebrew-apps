@@ -1,11 +1,16 @@
-class Nexa < Formula
-  desc "Nexa App On Homebrew"
-  homepage "https://corpobit.com/nexa"
-  url "https://github.com/corpobit/public-repo/releases/download/v1.2.3/nexa-1.2.3.zip"
-  sha256 "abcd1234ef567890..." 
+cask "nexa" do
   version "1.2.3"
+  sha256 "abc123...your-sha-here"
 
-  def install
-    bin.install "nexa"
-  end
+  url "https://corpobit-releases.s3.amazonaws.com/macos/123/macos-app.zip"
+  name "Nexa"
+  desc "Nexa is a powerful tool for managing your projects efficiently."
+  homepage "https://corpobit.com/"
+
+  app "Nexa.app"
+
+  zap trash: [
+    "~/Library/Application Support/Nexa",
+    "~/Library/Preferences/com.corpobit.nexa.plist",
+  ]
 end
