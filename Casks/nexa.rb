@@ -1,8 +1,8 @@
 cask "nexa" do
-  version "6.0"
-  sha256 "d7a0bf063ac318c8e826d5c36b33828af66a27d543558b1bbb9586116dc4c381"
+  version "8.0"
+  sha256 "b3c58d11dc645e6d47d88797a61ff72fc6e576f452ee239b1087cc3b36d95408"
 
-  url "https://corpobit-releases.s3.amazonaws.com/nexa/macos/6.0/macos-app.zip"
+  url "https://corpobit-releases.s3.amazonaws.com/nexa/macos/8.0/macos-app.zip"
   name "Nexa"
   desc "Nexa is a powerful tool for managing your projects efficiently."
   homepage "https://corpobit.com/"
