@@ -1,8 +1,8 @@
 cask "corpobox" do
-  version "8.0"
-  sha256 "b3c58d11dc645e6d47d88797a61ff72fc6e576f452ee239b1087cc3b36d95408"
+  version "5.0"
+  sha256 "e3e42112f4694855aeb9096fae7a3c76b97f410138daa7f199d8766ef536952b"
 
-  url "https://corpobit-releases.s3.amazonaws.com/nexa/macos/8.0/macos-app.zip"
+  url "https://corpobit-releases.s3.amazonaws.com/corpobox/macos/5.0/macos-app.zip"
   name "Corpobox"
   desc "corpobox is a powerful tool for managing corpobit applications"
   homepage "https://corpobit.com/"
