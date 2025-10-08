@@ -1,8 +1,8 @@
 cask "nexterm" do
-  version "3.0"
-  sha256 "3a61a9f37c31959d5f3a2a8c7939934becc3d6a5e3523a98466bad773b970ad4"
+  version "4.0"
+  sha256 "4c07861ca73191d9ebc7d79ac8730be8119e10f25238a9ceeee0c2f2add95bde"
 
-  url "https://corpobit-releases.s3.amazonaws.com/nexterm/macos/3.0/macos-app.zip"
+  url "https://corpobit-releases.s3.amazonaws.com/nexterm/macos/4.0/macos-app.zip"
   name "Nexterm"
   desc "Nexterm is a powerful tool for managing your projects efficiently."
   homepage "https://corpobit.com/"
